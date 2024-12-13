@@ -1,0 +1,103 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  margin: 20px;
+  border: 1px solid sandybrown;
+  height: 250px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.page, .head{
+  text-align: center;
+}
+.click{
+  display: grid;
+  place-items: center;
+  width: auto;
+}
+button.display{
+  width: 200px;
+  height: 50px;
+  background: #294DFF;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.display:active{
+  background: #444;
+  color: #000;
+}
+.add{
+  background: #000;
+}
+.cleared{
+  display: block;
+  background-image: none;
+  background-color: none;
+}
+Button.clear{
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #555;
+}
+.textA{
+  color: mediumvioletred;
+}
+h3{
+  color: rebeccapurple;
+}
+h4, h2{
+  color: orange;
+}
+h1{
+  font-size: 38px;
+  font-weight: 1000;
+  box-shadow: 0px 2px 0px 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: sandybrown;
+  text-decoration: overline;
+}
+.head{
+  padding: 20px;
+  background-color: purple;
+}
+.blockImg{
+  height: auto;
+  @media width {
+    max-width: 80%;
+  }
+  border: 1px solid gold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 20px;
+}
+.blockImg img{
+  width: 90%;
+}
+.footee{
+ background-color: #999;
+ color: #fff;
+ text-align: center;
+ padding: 2px;
+ margin-top: 40px;
+}
+.field{
+  margin: 20px;
+}
+.order, .viewClear{
+  display: block;
+  margin: 20px;
+  font-size: 90%;
+  font-weight: 1000;
+}
